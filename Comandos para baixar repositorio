@@ -1,0 +1,19 @@
+sudo wget -r -N --no-parent -nH --cut-dirs=1 http://archive.ubuntu.com/ubuntu/dists/jammy/
+
+sudo wget -r -N --no-parent --reject '*index.html*' -nH --cut-dirs=1 http://archive.ubuntu.com/ubuntu/dists/jammy/
+
+sudo wget -r -N --no-parent --reject '*index.html*' -nH --cut-dirs=1 http://archive.ubuntu.com/ubuntu/dists/jammy-updates/
+
+sudo wget -r -N --no-parent --reject '*index.html*' -nH --cut-dirs=1 http://archive.ubuntu.com/ubuntu/dists/jammy-security/
+
+sudo wget -r -N --no-parent --reject '*index.html*' -nH --cut-dirs=1 http://archive.ubuntu.com/ubuntu/dists/jammy-proposed/
+
+sudo wget -r -N --no-parent --reject '*index.html*' -nH --cut-dirs=1 http://archive.ubuntu.com/ubuntu/dists/jammy-backports/
+
+
+
+sudo wget -r -N --no-parent -nH --cut-dirs=1 http://archive.ubuntu.com/ubuntu/dists/jammy/
+sudo wget -r -N --no-parent -nH --cut-dirs=1 http://archive.ubuntu.com/ubuntu/dists/jammy-updates/
+sudo wget -r -N --no-parent -nH --cut-dirs=1 http://archive.ubuntu.com/ubuntu/dists/jammy-security/
+sudo wget -r -N --no-parent -nH --cut-dirs=1 http://archive.ubuntu.com/ubuntu/dists/jammy-proposed/
+sudo wget -r -N --no-parent -nH --cut-dirs=1 http://archive.ubuntu.com/ubuntu/dists/jammy-backports/
